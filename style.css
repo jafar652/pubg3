@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img{
+    width: 56px;
+    height: 46px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.right button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    background-color: #F1A900;
+    color: black;
+    width: 192px;
+    height: 80px;
+    font-size: 20px;   
+}
+.right span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+nav{
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    height: 45px;
+    align-items: center;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.hero{
+    height: 797px;
+
+    background-image: url(./img/pubg2.png);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    margin-top: 400px;
+    gap: 30px;
+}
+.buttons button {
+    width: 235px;
+    height: 73px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 50px;
+}
+.pc{
+    background-color: #F1A900;
+    color: black;
+}
+.console{
+    background-color: black;
+    color: white;
+}
+.title{
+    background-color: #F1A90054;
+    color: white;
+    font-size: 60px;
+    width: 922px;
+    height: 140px;
+    font-weight: bold;
+    text-align: center;
+    padding: 38px 15px;
+}
+footer{
+    height: 101px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logos span{
+    gap: 30px;
+    margin-right: 50px;
+}
+.heroo{
+    height: 797px;
+
+    background-image: url(https://images.wallpapersden.com/image/download/new-pubg-game-2019_a2xqZW6UmZqaraWkpJRnaWVlrWZnams.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news{
+    height: 797px;
+
+    background-image: url(https://assets-prd.ignimgs.com/2024/08/27/pubg-7th-anniversary-key-art-1724780016773.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.media{
+    height: 797px;
+
+    background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2018/01/PlayerUnknowns-Battlegrounds-Artwork.jpg?w=1200&h=675&fit=crop);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.community{
+    height: 797px;
+
+    background-image: url(https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2019/06/wallhaven-83e8q2-e1559824239535.jpg?ssl=1&quality=80&w=f);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support{
+    height: 797px;
+
+    background-image: url(https://cdn.mos.cms.futurecdn.net/EuEFf8DDE4xU9hEPpugrCP.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
